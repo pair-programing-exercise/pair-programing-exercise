@@ -7,6 +7,9 @@
         margin: 0;
         padding: 0;
     }
+    title {
+        display: none;
+    }
 
     div.alert-info {
         width: 90%;
@@ -75,4 +78,45 @@
 }
      ul:nth-of-type(2) {
         display: flex;
+}
+@media only screen and (min-width: 600px){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    div.alert-info {
+        display: none;
+    }
+    h1{
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 40%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .header-img {
+        clear: both;
+    }
+    ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    ul.nav-links {
+        margin: auto;
+    }
+    li a {
+        padding: 0.5em;
+        margin: auto;
+    }
+
+
 }
