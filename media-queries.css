@@ -157,10 +157,11 @@
         font-style: italic;
     }
     footer {
-        clear: both;
+       float: left;
         width: calc(100% - 40px);
-        position: absolute;
-        bottom: 20px;
+        margin-top: 150px;
+
+
     }
     footer ul {
         list-style-type: none;
