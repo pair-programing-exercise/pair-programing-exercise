@@ -82,7 +82,7 @@
 @media only screen and (min-width: 575px){
     * {
         box-sizing: border-box;
-        margin: 0;
+        margin: 0 10px;
         padding: 0;
     }
     div.alert-info {
@@ -114,7 +114,7 @@
         width: 100%;
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
     ul.nav-links {
@@ -125,12 +125,24 @@
         margin: auto;
     }
     .header-img {
-        margin: 0 20px;
+        margin: 0;
         display: flex;
         justify-content: center;
     }
     img {
+        margin: 0;
         width: 100%;
     }
+    .main {
+        float: left;
+        width: 60%;
 
+    }
+    .sub-section {
+        float: right;
+        width: 40%;
+    }
+    p {
+        text-align: center;
+    }
 }
