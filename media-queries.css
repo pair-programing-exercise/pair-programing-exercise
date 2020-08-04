@@ -5,13 +5,12 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-
     }
     title {
         display: none;
     }
     div.alert-info {
-        width: calc(80% + 6px);
+        width: calc(80% + .375em);
         margin: 0 auto;
         display: flex;
         align-content: center;
@@ -22,7 +21,7 @@
         padding: 1em;
         background-color: lightcyan;
         color: black;
-        margin: 0 10%;
+        margin: 0 5%;
         text-align: center;
         border: black solid 1px;
     }
@@ -148,6 +147,11 @@
         float: right;
         width: 30%;
         margin: 29px 0 20px 0;
+    /*  try display flex
+        flex direction column
+        align-items space between
+        streamline px to
+      */
     }
     p {
         text-align: center;
